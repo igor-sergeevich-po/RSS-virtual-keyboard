@@ -27,21 +27,25 @@ function createContainer(){
 
     // add language radio eng
     languageRadioE.classList.add('language-radio')
+    languageRadioE.classList.add('spec-place')
     languageRadioE.setAttribute('type', 'radio')
     languageRadioE.setAttribute('id', 'eng-radio')
     //!!!!! add tets for checked locarstorage
     languageRadioE.setAttribute('checked', 'checked')
     languageRadioE.setAttribute('name', 'groupLangRadioButton')
     labelRadioE.classList.add('label-radio')
+    labelRadioE.classList.add('spec-place')
     labelRadioE.innerHTML = 'english';
     contentContainer.appendChild(languageRadioE)
     contentContainer.append(labelRadioE)
     // ru
+    languageRadioR.classList.add('spec-place')
     languageRadioR.classList.add('language-radio')
     languageRadioR.setAttribute('type', 'radio')
     languageRadioR.setAttribute('id', 'rus-radio')
     languageRadioR.setAttribute('name', 'groupLangRadioButton')
     labelRadioR.classList.add('label-radio')
+    labelRadioR.classList.add('spec-place')
     labelRadioR.innerHTML = 'russia';
     contentContainer.appendChild(languageRadioR)
     contentContainer.append(labelRadioR)
