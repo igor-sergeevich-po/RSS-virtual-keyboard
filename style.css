@@ -36,14 +36,11 @@ body{
 }
 
 .keyboard-container{
-    display: flex;
-    flex-wrap: wrap;
+ 
     margin: auto auto 20px;
     padding: 5px;
-    background-color: rgb(224, 224, 224);
-    width: 96%;
-    gap: 5px 5px;
-    height: 50%;
+    background-color: rgb(224, 224, 224);  
+    height: 40%;
     border-radius: 4px 4px 22px 22px;
 }
 
@@ -51,6 +48,61 @@ body{
     width: 30px;
     height: 30px;
     border: 1px solid black;
+    background-color: rgb(238 238 238);
+    border-radius: 3px;
     text-align: center;
     line-height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.key-box:hover{
+    background-color: rgb(144, 152, 154);
+    color: aliceblue;
+    
+}
+.action-key:hover{
+    border: 3px solid rgb(171, 171, 171);
+    background-color: rgb(61, 64, 64);
+    color: rgb(255, 255, 255);
+}
+.action-push-the-button{
+    border: 3px solid rgb(171, 171, 171);
+    background-color: rgb(61, 64, 64);
+    color: rgb(255, 255, 255);
+}
+.row{
+    gap: 5px 5px;
+    display: flex;
+    margin: 3px auto ;
+    width: 100%;
+}
+.backspace{
+    width: 80px;
+}
+.tab{
+    width: 50px;
+}
+.enter{
+    width: 60px;
+}
+.caps-lock{
+    width: 68px;
+}
+.shift{
+    width: 90px;
+}
+.shift-r{
+    width: 52px;
+}
+.unicWidth{
+    width: 45px;
+}
+.unic-Slash-Width{
+    width: 77px;
+}
+.whitespace{
+    width: 185px;
+}
+.arrow-unic-width{
+    width: 33px;
 }
